@@ -10,5 +10,8 @@ def estimate_pi(N: int, fkt_M=in_unit_circle) -> float:
 
     return 4*M/N
 
+def main() -> None:
+    print(estimate_pi(10000000))
 
-print(estimate_pi(1000))
+if __name__ == "__main__":
+    main()
