@@ -34,6 +34,9 @@ def get_accuracy(N: int) -> float:
 
     return abs(est_pi - math.pi)
 
+def main() -> None:
+    print(f"delta pi = {get_accuracy(1000)}")
+    print(f"pi = {estimate_pi(1000)}")
 
-print(f"delta pi = {get_accuracy(1000)}")
-print(f"pi = {estimate_pi(1000)}")
+if __name__ == "__main__":
+    main()
