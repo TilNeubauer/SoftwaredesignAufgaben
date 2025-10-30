@@ -1,0 +1,7 @@
+1	No two universities can have the same name?	                                No
+2	A university and a student cannot have the same name?	                    No
+3	No student studies at more than one university?	                            Yes
+4	Each student studies at at least one university?	                        Yes
+5	Two students with the same name cannot study at the same university?	    No
+6	Two students with the same name cannot study at different universities?     No
+7	Two universities can have the same address?	                                Yes
