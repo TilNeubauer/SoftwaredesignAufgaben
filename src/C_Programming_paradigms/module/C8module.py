@@ -88,7 +88,7 @@ def day_of_date(d: int, m: int, y: int) -> int:
     return day
 
 
-def week_in_year(d: int, m: int, y: int) -> int:
+def week_num(d: int, m: int, y: int) -> int:
     # returns the current week number of the year (follow the ISO-8601 standard)
     #
     # d: int | day of the date 
