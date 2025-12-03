@@ -1,0 +1,6 @@
+C8module.py
+pyproject.toml
+c8module.egg-info/PKG-INFO
+c8module.egg-info/SOURCES.txt
+c8module.egg-info/dependency_links.txt
+c8module.egg-info/top_level.txt

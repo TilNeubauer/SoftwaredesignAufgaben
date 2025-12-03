@@ -5,10 +5,18 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:44928133b0b10cff5467189f2c38fb83ca478c7c7d19a400cebc90ee458e9ab5"
+content_hash = "sha256:39937a25b67327ae0f7ec340de22d26d13c125396a27b08ce7125d5648334e03"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
+
+[[package]]
+name = "c8module"
+version = "0.1.0"
+requires_python = ">=3.11"
+path = "./src/C_Programming_paradigms/module"
+summary = "Lokales Modul for Exercise C.9"
+groups = ["default"]
 
 [[package]]
 name = "contourpy"
