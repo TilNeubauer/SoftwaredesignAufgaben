@@ -69,7 +69,7 @@ class Predator:
 # -------------------------------------------------------
 # Propagator class (Forward Euler)
 # -------------------------------------------------------
-class LVPropagator:
+class Propagate:
 
     def __init__(self, prey, predator):
         self.prey = prey
@@ -124,7 +124,7 @@ if __name__ == "__main__":
     prey = Prey(x0, alpha, beta)
     predator = Predator(y0, delta, gamma)
 
-    sim = LVPropagator(prey, predator)
+    sim = Propagate(prey, predator)
     print(sim)
 
     # simulate
