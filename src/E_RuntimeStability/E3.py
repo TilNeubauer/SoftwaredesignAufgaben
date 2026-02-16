@@ -1,10 +1,8 @@
 import os
 import logging
 
-# 1) Log-Level aus Environment lesen (z.B. myloglevel=DEBUG)
 level_str = os.getenv("myloglevel", "DEBUG").upper()  # Default DEBUG (wie im Snippet)
 
-# 2) String -> logging-Level mappen, Fallback auf Default wenn ungültig
 level = getattr(logging, level_str, logging.DEBUG)
 
 logging.basicConfig(
